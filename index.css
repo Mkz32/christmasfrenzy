@@ -1,5 +1,5 @@
 body {
     background-color: #ed0a16;
-    opacity: 0.2;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ed0a16 20px ), repeating-linear-gradient( #5ff74455, #5ff744 );
+    opacity: 0.8;
+    background: linear-gradient(135deg, #5ff74455 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(225deg, #5ff744 25%, transparent 25%) -20px 0/ 40px 40px, linear-gradient(315deg, #5ff74455 25%, transparent 25%) 0px 0/ 40px 40px, linear-gradient(45deg, #5ff744 25%, #ed0a16 25%) 0px 0/ 40px 40px;
 }
