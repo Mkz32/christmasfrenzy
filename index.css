@@ -1,10 +1,17 @@
+* {
+    box-sizing: border-box;
+    animation-duration: 0.5s;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    padding:0;
+    margin:0;
+}
+
 body {
     background-image: url(https://giphy.com/gifs/3ohc12BzKkijRTbyhy/html5);
     background-size: cover;
-    
-    
-    
-    height: 100vh;
-    padding:0;
-    margin:0;    
+    background-position: center center; 
 } 
