@@ -11,7 +11,25 @@ html, body {
 }
 
 body {
-    background-image: url(https://giphy.com/gifs/3ohc12BzKkijRTbyhy/html5);
+    background-image: url('https://cdn.discordapp.com/attachments/700789236164460665/791089727359942666/Chistmas_background.gif');
     background-size: cover;
     background-position: center center; 
 } 
+
+.title-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.title-wrap h1 {
+    font-family: 'Zapfino', cursive;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 20px;
+    border-radius: 3px;
+    color: white;
+}
