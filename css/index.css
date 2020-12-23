@@ -41,7 +41,7 @@ body {
 
 .container{
     display: flex;
-
+    letter-spacing: 3px;
 }
 
 #snow {
